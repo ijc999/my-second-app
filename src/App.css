@@ -1,0 +1,57 @@
+.container {
+  display: row;
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 100vh;
+  justify-content: center;
+  width: 100%;
+}
+.section h1, .section h3 {
+  margin-top: 2px;
+  text-align: center;
+}
+
+.section .images {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.section:first-child  {
+  background-color: black;
+  color: red;
+}
+
+.section:last-child  {
+  color: red;
+}
+
+.image {
+  height: 300px;
+  max-width: 150px;
+  width: 80%;
+  text-align: center;
+}
+.image2 {
+  height: 80px;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+.image3 {
+  height: 30px;
+  max-width: 50px;
+  width: 100%;
+  text-align: center;
+}
+.airtext p {
+  font-size: 10px;
+}
+
+.bbctext p {
+  font-size: 5px;
+  font-weight: bold;
+  color: black;
+}
